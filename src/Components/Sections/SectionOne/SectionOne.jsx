@@ -6,11 +6,11 @@ import chip from "../../Image/chipMain.jpg";
 const SectionOne = () => {
   const SectionElement = styled.section`
     width: 100%;
+    margin-bottom: 2rem;
   `;
 
   const Wrapper = styled.div`
     position: relative;
-    margin-top: 1rem;
   `;
 
   const InfoImage = styled.img`
@@ -35,7 +35,7 @@ const SectionOne = () => {
     text-align: center;
     font-family: var(--family-extra);
     font-size: var(--fs-xl);
-    margin-top: 5rem;
+    margin-top: 4rem;
 
     @media (max-width: 1024px) {
       font-size: var(--fs-l);

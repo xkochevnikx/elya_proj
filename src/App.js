@@ -1,13 +1,14 @@
+import { BrowserRouter } from "react-router-dom";
 import "./App.css";
-import Header from "./Components/Sections/Header/Header";
-import SectionOne from "./Components/Sections/SectionOne/SectionOne";
+import AppRouter from "./AppRouter";
+import Carousel from "./Components/Carousel/Carousel";
 
 function App() {
   return (
-    <>
-      <Header />
-      <SectionOne />
-    </>
+    <BrowserRouter>
+      <Carousel />
+      <AppRouter />
+    </BrowserRouter>
   );
 }
 
